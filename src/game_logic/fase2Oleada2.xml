@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<stage>
+
+	<nextPhase>fase2Boss</nextPhase>
+
+	<background>snowBack</background>
+	<sky>snowSky</sky>
+	<large>1200</large>
+
+	<dificulty>4</dificulty>
+
+	<floor>
+
+		<surface position="0" length="1000">snowFloor</surface>
+
+	</floor>
+
+	<platfotms>
+
+		<platform>
+			<type>simple</type>
+			<position x="60" y="400" />
+			<size>150</size>
+			<image>snowPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="100" y="500" />
+			<size>25</size>
+			<image>snowPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="300" y="350" />
+			<size>25</size>
+			<image>snowPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="850" y="500" />
+			<size>300</size>
+			<image>snowPlatform</image>
+		</platform>
+
+
+	</platfotms>
+
+	<traps>
+
+		<trap x="300" y="200" length="50">spikesTrap</trap>
+
+	</traps>
+
+	<enemies>
+
+		<enemy>
+			<type>penguin</type>
+			<quantity>13</quantity>
+			<maxActive>5</maxActive>
+			<minWait>3</minWait>
+		</enemy>
+
+		<enemy>
+			<type>snowman</type>
+			<quantity>6</quantity>
+			<maxActive>3</maxActive>
+			<minWait>5</minWait>
+		</enemy>
+
+	</enemies>
+
+</stage>

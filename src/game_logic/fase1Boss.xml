@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<stage>
+
+	<nextPhase>fase2Oleada1</nextPhase>
+
+	<background>dessertBack</background>
+	<sky>dessertSky</sky>
+	<large>1100</large>
+
+	<dificulty>2</dificulty>
+
+	<floor>
+
+		<surface position="0" length="1100">dessertFloor</surface>
+
+	</floor>
+
+	<platfotms>
+
+		<platform>
+			<type>simple</type>
+			<position x="100" y="500" />
+			<size>50</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="400" y="500" />
+			<size>50</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="700" y="500" />
+			<size>50</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="1000" y="500" />
+			<size>50</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="200" y="400" />
+			<size>100</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="500" y="400" />
+			<size>100</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="800" y="400" />
+			<size>100</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="0" y="300" />
+			<size>100</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="1000" y="300" />
+			<size>100</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="400" y="300" />
+			<size>300</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+	</platfotms>
+
+	<traps>
+
+		
+
+	</traps>
+
+	<enemies>
+
+		<enemy>
+			<type>camel</type>
+			<quantity>1</quantity>
+			<maxActive>1</maxActive>
+			<minWait>1</minWait>
+		</enemy>
+
+	</enemies>
+
+</stage>

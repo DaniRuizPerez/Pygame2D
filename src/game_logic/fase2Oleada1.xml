@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<stage>
+
+	<nextPhase>fase2Oleada2</nextPhase>
+
+	<background>snowBack</background>
+	<sky>snowSky</sky>
+	<large>1200</large>
+
+	<dificulty>4</dificulty>
+
+	<floor>
+
+		<surface position="150" length="300">snowFloor</surface>
+		<surface position="950" length="200">snowFloor</surface>
+		<surface position="500" length="400">snowFloor</surface>
+
+	</floor>
+
+	<platfotms>
+
+		<platform>
+			<type>simple</type>
+			<position x="60" y="400" />
+			<size>150</size>
+			<image>snowPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="100" y="500" />
+			<size>25</size>
+			<image>snowPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="850" y="500" />
+			<size>300</size>
+			<image>snowPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="600" y="300" />
+			<size>200</size>
+			<image>snowPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="850" y="400" />
+			<size>300</size>
+			<image>snowPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="300" y="200" />
+			<size>600</size>
+			<image>snowPlatform</image>
+		</platform>
+
+	</platfotms>
+
+	<traps>
+
+		<trap x="300" y="200" length="50">spikesTrap</trap>
+
+	</traps>
+
+	<enemies>
+
+		<enemy>
+			<type>penguin</type>
+			<quantity>7</quantity>
+			<maxActive>3</maxActive>
+			<minWait>3</minWait>
+		</enemy>
+
+		<enemy>
+			<type>snowman</type>
+			<quantity>3</quantity>
+			<maxActive>2</maxActive>
+			<minWait>5</minWait>
+		</enemy>
+
+	</enemies>
+
+</stage>

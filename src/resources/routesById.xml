@@ -1,0 +1,170 @@
+<routes>
+
+
+	<route>
+		<name>gameFont</name>
+		<file>fonts\gameFont.ttf</file>
+	</route>
+
+
+	<route>
+		<name>spikesTrap</name>
+		<file>platforms\spriteTrampa.gif</file>
+	</route>
+
+
+	<route>
+		<name>dessertBack</name>
+		<file>platforms\desert-back.png</file>
+	</route>
+
+	<route>
+		<name>dessertSky</name>
+		<file>boton_verde.png</file>
+	</route>
+
+
+
+	<route>
+		<name>dessertFloorTopLeft</name>
+		<file>platforms\desert-floor-platform-top.png</file>
+	</route>
+
+	<route>
+		<name>dessertFloorTop</name>
+		<file>platforms\desert-floor-platform-top.png</file>
+	</route>
+
+	<route>
+		<name>dessertFloorTopRight</name>
+		<file>platforms\desert-floor-platform-top.png</file>
+	</route>
+
+	<route>
+		<name>dessertFloorLeft</name>
+		<file>platforms\desert-floor-platform-fill.png</file>
+	</route>
+
+	<route>
+		<name>dessertFloorFill</name>
+		<file>platforms\desert-floor-platform-fill.png</file>
+	</route>
+
+	<route>
+		<name>dessertFloorRight</name>
+		<file>platforms\desert-floor-platform-fill.png</file>
+	</route>
+
+
+
+	<route>
+		<name>dessertPlatformTopLeft</name>
+		<file>platforms\desert-platform-top.png</file>
+	</route>
+
+	<route>
+		<name>dessertPlatformTop</name>
+		<file>platforms\desert-platform-top.png</file>
+	</route>
+
+	<route>
+		<name>dessertPlatformTopRight</name>
+		<file>platforms\desert-platform-top.png</file>
+	</route>
+
+	<route>
+		<name>dessertPlatformLeft</name>
+		<file>platforms\desert-platform-fill.png</file>
+	</route>
+
+	<route>
+		<name>dessertPlatformFill</name>
+		<file>platforms\desert-platform-fill.png</file>
+	</route>
+
+	<route>
+		<name>dessertPlatformRight</name>
+		<file>platforms\desert-platform-fill.png</file>
+	</route>
+
+
+
+
+
+	<route>
+		<name>snowBack</name>
+		<file>platforms\snow-back.png</file>
+	</route>
+
+	<route>
+		<name>snowSky</name>
+		<file>boton_verde.png</file>
+	</route>
+
+
+
+	<route>
+		<name>snowFloorTopLeft</name>
+		<file>platforms\snow-floor-platform-top.png</file>
+	</route>
+
+	<route>
+		<name>snowFloorTop</name>
+		<file>platforms\snow-floor-platform-top.png</file>
+	</route>
+
+	<route>
+		<name>snowFloorTopRight</name>
+		<file>platforms\snow-floor-platform-top.png</file>
+	</route>
+
+	<route>
+		<name>snowFloorLeft</name>
+		<file>platforms\snow-floor-platform-fill.png</file>
+	</route>
+
+	<route>
+		<name>snowFloorFill</name>
+		<file>platforms\snow-floor-platform-fill.png</file>
+	</route>
+
+	<route>
+		<name>snowFloorRight</name>
+		<file>platforms\snow-floor-platform-fill.png</file>
+	</route>
+
+
+
+	<route>
+		<name>snowPlatformTopLeft</name>
+		<file>platforms\snow-platform-top.png</file>
+	</route>
+
+	<route>
+		<name>snowPlatformTop</name>
+		<file>platforms\snow-platform-top.png</file>
+	</route>
+
+	<route>
+		<name>snowPlatformTopRight</name>
+		<file>platforms\snow-platform-top.png</file>
+	</route>
+
+	<route>
+		<name>snowPlatformLeft</name>
+		<file>platforms\snow-platform-fill.png</file>
+	</route>
+
+	<route>
+		<name>snowPlatformFill</name>
+		<file>platforms\snow-platform-fill.png</file>
+	</route>
+
+	<route>
+		<name>snowPlatformRight</name>
+		<file>platforms\snow-platform-fill.png</file>
+	</route>
+
+
+
+</routes>

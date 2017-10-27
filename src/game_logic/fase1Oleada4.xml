@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<stage>
+
+	<name>fase1</name>
+	<nextPhase>fase2</nextPhase>
+
+	<background>dessertBack</background>
+	<sky>dessertSky</sky>
+	<large>1200</large>
+
+	<dificulty>3</dificulty>
+
+	<floor>
+
+		<surface position="0" length="300">dessertFloor</surface>
+		<surface position="700" length="500">dessertFloor</surface>
+
+	</floor>
+
+	<platfotms>
+
+		<platform>
+			<type>simple</type>
+			<position x="250" y="400" />
+			<size>150</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="350" y="500" />
+			<size>200</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+	</platfotms>
+
+	<traps>
+
+		<trap x="400" y="500">spikesTrap</trap>
+
+	</traps>
+
+	<enemies>
+
+		<enemy>
+			<type>cactus</type>
+			<quantity>1</quantity>
+			<maxActive>5</maxActive>
+			<minWait>5</minWait>
+		</enemy>
+
+	</enemies>
+
+</stage>

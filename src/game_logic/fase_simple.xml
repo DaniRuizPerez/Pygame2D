@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<stage>
+
+	<name>test</name>
+
+	<background>dessertBack</background>
+	<sky>dessertSky</sky>
+	<large>1200</large>
+
+	<dificulty>3</dificulty>
+
+	<floor>
+
+		<surface position="0" length="300">dessertFloor</surface>
+		<surface position="500" length="700">dessertFloor</surface>
+
+	</floor>
+
+	<platfotms>
+
+		<platform>
+			<type>simple</type>
+			<position x="250" y="200" />
+			<size>100</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="350" y="500" />
+			<size>200</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+	</platfotms>
+
+	<traps>
+
+		<trap x="300" y="200" length="50">spikesTrap</trap>
+
+	</traps>
+
+	<enemies>
+
+		<enemy>
+			<type>cactus</type>
+			<number>1</number>
+			<time>5</time>
+		</enemy>
+
+	</enemies>
+
+</stage>

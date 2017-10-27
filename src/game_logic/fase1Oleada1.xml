@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<stage>
+
+	<nextPhase>fase1Oleada2</nextPhase>
+
+	<background>dessertBack</background>
+	<sky>dessertSky</sky>
+	<large>1200</large>
+
+	<dificulty>3</dificulty>
+
+	<floor>
+
+		<surface position="100" length="500">dessertFloor</surface>
+		<surface position="700" length="400">dessertFloor</surface>
+
+	</floor>
+
+	<platfotms>
+
+		<platform>
+			<position x="250" y="400" />
+			<size>150</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+		<platform>
+			<position x="800" y="483" />
+			<size>200</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+		<platform>
+			<position x="500" y="515" />
+			<size>200</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+		<platform>
+			<position x="350" y="500" />
+			<size>200</size>
+			<image>dessertPlatform</image>
+		</platform>
+
+	</platfotms>
+
+	<traps>
+
+		<trap x="400" y="500">spikesTrap</trap>
+
+	</traps>
+
+	<enemies>
+
+		<enemy>
+			<type>cactus</type>
+			<quantity>7</quantity>
+			<maxActive>3</maxActive>
+			<minWait>3</minWait>
+		</enemy>
+
+		<enemy>
+			<type>scorpion</type>
+			<quantity>3</quantity>
+			<maxActive>2</maxActive>
+			<minWait>5</minWait>
+		</enemy>
+
+	</enemies>
+
+</stage>

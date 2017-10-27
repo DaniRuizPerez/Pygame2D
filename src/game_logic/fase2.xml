@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<stage>
+
+	<name>test</name>
+
+	<background>snowBack</background>
+	<sky>snowSky</sky>
+	<large>1200</large>
+
+	<dificulty>3</dificulty>
+
+	<floor>
+
+		<surface position="0" length="300">snowFloor</surface>
+		<surface position="500" length="700">snowFloor</surface>
+
+	</floor>
+
+	<platfotms>
+
+		<platform>
+			<type>simple</type>
+			<position x="250" y="200" />
+			<size>100</size>
+			<image>snowPlatform</image>
+		</platform>
+
+		<platform>
+			<type>simple</type>
+			<position x="350" y="500" />
+			<size>200</size>
+			<image>snowPlatform</image>
+		</platform>
+
+	</platfotms>
+
+	<traps>
+
+		<trap x="300" y="200" length="50">spikesTrap</trap>
+
+	</traps>
+
+	<enemies>
+
+		<enemy>
+			<type>snowman</type>
+			<quantity>1</quantity>
+			<maxActive>5</maxActive>
+			<minWait>5</minWait>
+		</enemy>
+
+	</enemies>
+
+</stage>
