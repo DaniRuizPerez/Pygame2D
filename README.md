@@ -1,7 +1,7 @@
 Pyglet/Pygame 2D Game
 ============
 
-This was a project for the videogames course in my senior year of my undergrad in computer science at UDC (Spain). The 43 pages report (Spanish) can be viewed [here](https://github.com/DaniRuizPerez/Pygame/blob/master/Report.pdf) for further explanations.
+This was a project for the video games course in my senior year of my undergrad in computer science at UDC (Spain). The 43 pages report (Spanish) can be viewed [here](https://github.com/DaniRuizPerez/Pygame/blob/master/Report.pdf) for further explanations.
 
 A video showing the game can be viewed [here](https://github.com/DaniRuizPerez/Pygame/blob/master/VideoDemo.mp4) for further explanations.
 
@@ -16,31 +16,31 @@ Everything that is not a static background is considered an actor, whidh extends
 <img src="https://github.com/DaniRuizPerez/Pygame/blob/master/UML/UML 5 actorOverview.png" width="800"></p>
 
 
-The state class is one of the most complex ones, which gives each character its behaviour and transtition strategy between states. We mixed the design patters strategy and state so the implementation of the specific action taken can be abstracted.
+The state class is one of the most complex ones, which gives each character its behavior and transition strategy between states. We mixed the design patters strategy and state so the implementation of the specific action taken can be abstracted.
 
 
 <p align="center">
 <img src="https://github.com/DaniRuizPerez/Pygame/blob/master/UML/UML 3 actorStateFinal.png" width="800">
 </p>
 
-The Physics class calculates the new position in each frame based on the chagnes in the state.
+The Physics class calculates the new position in each frame based on the changes in the state.
 
 
 ## Enemy AI
 
-The enemies are smartes and tougher each level, which was implemented with a probability of failure on taking certain actions that decrease as the level increase. The enemies
+The enemies are smarter and tougher each level, which was implemented with a probability of failure of taking certain actions that decrease as the level increase. The enemies:
 - Dodge bullets
-- Jump trough obstacles and avoid falling in traps or pits
+- Jump through obstacles and avoid falling into traps or pits
 - Allways try to be inside the screen for the actual scroll value
 - Try to follow the player and be at the same height
 
-On top of that, each type of regular enemy has its own personality, and they follow a state diagram which include things like chase, scape, attack, etc.
+On top of that, each type of regular enemy has its own personality, and they follow a state diagram which includes things like chase, scape, attack, etc.
 
-Each boss has a personalized state diagram, with things like run, trow one or several bulets in different directions, etc.
+Each boss has a personalized state diagram, with things like run, fire one or several bullets in different directions, etc.
 
 ## Phase design
 
-Everything is managed by a resource manager which extracts information for the fase (platforms, sprites, background or colludible, trap...)from a resource manager. 
+Everything is managed by a resource manager which extracts information for the phase (platforms, sprites, background or not, trap...) from a resource manager. 
 Custom phases with different enemies and all sort of customizations can created very easilty with our XML format as can be seen here:
 
 <p align="center">
