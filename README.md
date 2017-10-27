@@ -1,9 +1,14 @@
 Pyglet/Pygame 2D Game
 ============
 
+<p align="center">
+<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/Images/Hi-ResSprites.png" width="500">
+</p>
+
 This was a project for the video games course in my senior year of my undergrad in computer science at UDC (Spain). The 43 pages report (Spanish) can be viewed [here](https://github.com/DaniRuizPerez/Pygame/blob/master/Report.pdf) for further explanations.
 
-A video showing the game can be viewed [here](https://github.com/DaniRuizPerez/Pygame/blob/master/VideoDemo.mp4) for further explanations.
+A demonstration video of the game can be viewed [here](https://github.com/DaniRuizPerez/Pygame/blob/master/VideoDemo.mp4).
+
 
 We developed the history and background for the game and implemented different maps, each with their own enemies and bosses. We designed the sprites of all the characters and implemented different levels of AIs and powers ensure a good time for every level of skill.
 
@@ -51,9 +56,6 @@ Custom phases with different enemies and all sort of customizations can created 
 
 We designed and created every sprite and sprite sheet that is on the game from scratch with vectorial design.
 
-<p align="center">
-<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/Images/Hi-ResSprites.png" width="500">
-</p>
 
 ## Tools
 
