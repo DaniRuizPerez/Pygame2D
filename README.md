@@ -3,7 +3,7 @@ Pyglet/Pygame 2D Game
 
 This was a project for the videogames course in my senior year of my undergrad in computer science at UDC (Spain). The 43 pages report (Spanish) can be viewed [here](https://github.com/DaniRuizPerez/Pygame/blob/master/Report.pdf) for further explanations.
 
-A video showing the game can be viewed[here](https://github.com/DaniRuizPerez/Pygame/blob/master/VideoDemo.mp4) for further explanations.
+A video showing the game can be viewed [here](https://github.com/DaniRuizPerez/Pygame/blob/master/VideoDemo.mp4) for further explanations.
 
 We developed the history and background for the game and implemented different maps, each with their own enemies and bosses. We designed the sprites of all the characters and implemented different levels of AIs and powers ensure a good time for every level of skill.
 
@@ -12,11 +12,11 @@ We developed the history and background for the game and implemented different m
 
 Everything that is not a static background is considered an actor, whidh extends pygame.sprite.Sprite. In addition to that, it has a reference to the phase in which it is, the graphic aspect, physics, behaviour (state) and stats. All the attributes can be viewed in this UML diagram: 
 
-<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/UML/UML 5 actorOverview.png" width="500">
+<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/UML/UML 5 actorOverview.png">
 
 The state class is one of the most complex ones, which gives each character its behaviour and transtition strategy between states. We mixed the design patters strategy and state so the implementation of the specific action taken can be abstracted.
 
-<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/UML/UML 3 actorStateFinal.png" width="500">
+<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/UML/UML 3 actorStateFinal.png" width="500" align="center">
 
 The Physics class calculates the new position in each frame based on the chagnes in the state.
 
