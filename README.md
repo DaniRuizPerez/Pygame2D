@@ -16,7 +16,10 @@ Everything that is not a static background is considered an actor, whidh extends
 
 The state class is one of the most complex ones, which gives each character its behaviour and transtition strategy between states. We mixed the design patters strategy and state so the implementation of the specific action taken can be abstracted.
 
-<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/UML/UML 3 actorStateFinal.png" width="500" align="middle">
+
+<p align="center">
+<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/UML/UML 3 actorStateFinal.png" width="500">
+</p>
 
 The Physics class calculates the new position in each frame based on the chagnes in the state.
 
