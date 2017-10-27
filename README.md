@@ -12,13 +12,15 @@ We developed the history and background for the game and implemented different m
 
 Everything that is not a static background is considered an actor, whidh extends pygame.sprite.Sprite. In addition to that, it has a reference to the phase in which it is, the graphic aspect, physics, behaviour (state) and stats. All the attributes can be viewed in this UML diagram: 
 
-<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/UML/UML 5 actorOverview.png">
+<p align="center">
+<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/UML/UML 5 actorOverview.png" width="800"></p>
+
 
 The state class is one of the most complex ones, which gives each character its behaviour and transtition strategy between states. We mixed the design patters strategy and state so the implementation of the specific action taken can be abstracted.
 
 
 <p align="center">
-<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/UML/UML 3 actorStateFinal.png" width="500">
+<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/UML/UML 3 actorStateFinal.png" width="800">
 </p>
 
 The Physics class calculates the new position in each frame based on the chagnes in the state.
@@ -41,15 +43,17 @@ Each boss has a personalized state diagram, with things like run, trow one or se
 Everything is managed by a resource manager which extracts information for the fase (platforms, sprites, background or colludible, trap...)from a resource manager. 
 Custom phases with different enemies and all sort of customizations can created very easilty with our XML format as can be seen here:
 
+<p align="center">
 <img src="https://github.com/DaniRuizPerez/Pygame/blob/master/Images/faseDefinition.png" width="500">
-
+</p>
 
 ## Graphic design
 
 We designed and created every sprite and sprite sheet that is on the game from scratch with vectorial design.
 
+<p align="center">
 <img src="https://github.com/DaniRuizPerez/Pygame/blob/master/Images/Hi-ResSprites.png" width="500">
-
+</p>
 
 ## Tools
 
