@@ -2,7 +2,7 @@ Pyglet/Pygame 2D Game
 ============
 
 <p align="center">
-<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/Images/Hi-ResSprites.png" width="500">
+<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/ImagesAndUML/Hi-ResSprites.png" width="500">
 </p>
 
 This was a project for the video games course in my senior year of my undergrad in computer science at UDC (Spain). The 43 pages report (Spanish) can be viewed [here](https://github.com/DaniRuizPerez/Pygame/blob/master/Report.pdf) for further explanations.
@@ -18,14 +18,14 @@ We developed the history and background for the game and implemented different m
 Everything that is not a static background is considered an actor, whidh extends pygame.sprite.Sprite. In addition to that, it has a reference to the phase in which it is, the graphic aspect, physics, behaviour (state) and stats. All the attributes can be viewed in this UML diagram: 
 
 <p align="center">
-<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/UML/UML 5 actorOverview.png" width="800"></p>
+<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/ImagesAndUML/UML 5 actorOverview.png" width="800"></p>
 
 
 The state class is one of the most complex ones, which gives each character its behavior and transition strategy between states. We mixed the design patters strategy and state so the implementation of the specific action taken can be abstracted.
 
 
 <p align="center">
-<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/UML/UML 3 actorStateFinal.png" width="800">
+<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/ImagesAndUML/UML 3 actorStateFinal.png" width="800">
 </p>
 
 The Physics class calculates the new position in each frame based on the changes in the state.
@@ -49,7 +49,7 @@ Everything is managed by a resource manager which extracts information for the p
 Custom phases with different enemies and all sort of customizations can created very easilty with our XML format as can be seen here:
 
 <p align="center">
-<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/Images/faseDefinition.png" width="500">
+<img src="https://github.com/DaniRuizPerez/Pygame/blob/master/ImagesAndUML/faseDefinition.png" width="500">
 </p>
 
 ## Graphic design
@@ -57,7 +57,7 @@ Custom phases with different enemies and all sort of customizations can created 
 We designed and created every sprite and sprite sheet that is on the game from scratch with vectorial design.
 
 
-## Tools
+## Tools and execution
 
 The project was developed with the following tools
 
@@ -65,7 +65,17 @@ The project was developed with the following tools
 - Pygame
 - Pyglet
 
-to install Pygame and Pyglet, use pip
+Installation:
+```
+pip install pygame
+pip install pyglet
+```
+
+
+To execute the game, simply run the following command line instruction: 
+```
+python main.py 
+```
 
 ## How to play
 Move with the arrows, shoot with X and attack with Z
